@@ -4,7 +4,7 @@ import streamlit as st
 import google.generativeai as genai
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+
 
 # Configure Google API
 genai.configure(api_key="AIzaSyCh6GpwpxJys91aYoRZ_pLU2R9JrBqvZnU")  # Replace with your actual API key
